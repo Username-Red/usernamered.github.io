@@ -28,7 +28,6 @@ function updateTimer() {
             // Execute the next step after the pause
             button.classList.toggle("lilbutton-on");
             console.log("Step 2");
-            yell.play();
             pikachu.play();
         }, 4000); // 2000 milliseconds = 2 seconds
         
