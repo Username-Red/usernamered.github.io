@@ -1,6 +1,6 @@
 const button = document.querySelector(".lilbutton");
-const max = 5;
-const min = 1;
+const max = 90;
+const min = 30;
 let seconds = Math.floor((Math.random() * max) + min);
 let intervalId; // Variable to store the interval ID
 var pokeballSound = new Audio("assets\\pokeball-sound.mp3");
