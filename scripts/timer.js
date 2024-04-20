@@ -5,6 +5,7 @@ let seconds = Math.floor((Math.random() * max) + min);
 let intervalId; // Variable to store the interval ID
 var pokeballSound = new Audio("assets\\pokeball-sound.mp3");
 var pikachu = new Audio("assets\\pikachuu.mp3");
+var yell = new Audio("assets\\it-pikachu.mp3");
 
 button.addEventListener("click", function() {
     intervalId = setInterval(updateTimer, 1000); // Start the timer and store the interval ID
@@ -27,6 +28,7 @@ function updateTimer() {
             // Execute the next step after the pause
             button.classList.toggle("lilbutton-on");
             console.log("Step 2");
+            yell.play();
             pikachu.play();
         }, 4000); // 2000 milliseconds = 2 seconds
         
