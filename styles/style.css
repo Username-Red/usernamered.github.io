@@ -84,4 +84,8 @@ main {
     .top {
       background-color: red;
     }
+
+    .lilbutton:hover {
+        background-color: none;
+    }
   }
