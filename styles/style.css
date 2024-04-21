@@ -48,9 +48,13 @@ main {
     border-radius: 200px;
 }
 
-.lilbutton:hover {
-    background-color: yellow;
-}
+@media only screen and (min-width: 600px) {
+    .lilbutton:hover {
+        background-color: yellow;
+    }
+  }
+
+
 
 .lilbutton:active {
     background-color: aqua;
@@ -83,9 +87,5 @@ main {
 
     .top {
       background-color: red;
-    }
-
-    .lilbutton:hover {
-        background-color: none;
     }
   }

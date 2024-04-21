@@ -15,6 +15,11 @@ function updateTimer() {
     // Increment the seconds
     seconds--;
 
+    setTimeout(function() {
+        // Execute the next step after the pause
+        button.classList.toggle("lilbutton-on");
+    }, 1000);
+
     // Update the timer display with the new value
     // timerElement.textContent = seconds;
 
@@ -34,10 +39,7 @@ function updateTimer() {
         return;
     }
 
-    setTimeout(function() {
-        // Execute the next step after the pause
-        button.classList.toggle("lilbutton-on");
-    }, 1000);
+    
 
 
 
