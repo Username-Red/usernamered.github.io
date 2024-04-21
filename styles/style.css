@@ -66,3 +66,22 @@ main {
     height: 45vh;
     background-color: rgb(138, 138, 138);
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0;
+        padding: 0;
+        width: 90vw;
+    }
+    
+    main {
+        display: grid;
+        grid-template-rows: 45vh 10vh 45vh;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100vw;
+    }
+
+    .top {
+      background-color: rgb(71, 177, 212);
+    }
+  }
