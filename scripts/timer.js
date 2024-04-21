@@ -34,6 +34,13 @@ function updateTimer() {
         return;
     }
 
+    setTimeout(function() {
+        // Execute the next step after the pause
+        button.classList.toggle("lilbutton-on");
+    }, 1000);
+
+
+
     // if (button.className == "lilbutton-on") {
     //     button.classList.toggle("lilbutton-on");
     // }
