@@ -64,7 +64,7 @@ main {
     grid-row: 3/4;
     grid-column: 1/5;
     height: 45vh;
-    background-color: rgb(138, 138, 138);
+    background-color: rgb(255, 255, 255);
 }
 
 @media only screen and (max-width: 600px) {
@@ -82,6 +82,6 @@ main {
     }
 
     .top {
-      background-color: rgb(71, 177, 212);
+      background-color: red;
     }
   }
